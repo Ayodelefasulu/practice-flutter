@@ -48,6 +48,7 @@ class MyHomePage extends StatelessWidget {
           ],
         ),
       ),
+      primary: true,
       body: Center(
         
         child: Column(
