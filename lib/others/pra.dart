@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 void main() {
   //Object value = 42;
   //value = "HAE"; // Works because both String and int are subtypes of Object
