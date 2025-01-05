@@ -6,7 +6,6 @@ void main() {
   runApp(const MyApp());
 }
 
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -25,7 +24,6 @@ class MyApp extends StatelessWidget {
         '/profile': (context) => const ProfilePage(), // Profile/Dashboard Page
         '/payment': (context) => const PaymentPage(), // Payment Page
       },
-      
     );
   }
 }
@@ -51,7 +49,6 @@ class MyHomePage extends StatelessWidget {
       ),
       primary: true,
       body: Center(
-        
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -129,7 +126,7 @@ class LoginPage extends StatelessWidget {
             ),
           ],
         ),
-      ),  
+      ),
     );
   }
 }
@@ -211,7 +208,6 @@ class ProfilePage extends StatelessWidget {
   }
 }
 
-
 class PaymentPage extends StatelessWidget {
   const PaymentPage({super.key});
 
@@ -248,4 +244,3 @@ class PaymentPage extends StatelessWidget {
     );
   }
 }
-
